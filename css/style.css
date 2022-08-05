@@ -22,6 +22,12 @@ body{
 #menu-current{
     color: #86D3E7;
 }
+.drpdwn-bg{
+    background-color: #111212;
+}
+.drpdwn-bg:hover{
+    background-color: #191a1b;
+}
 /* NAVBAR */
 
 /* MEET ME */
@@ -140,9 +146,9 @@ body{
 #projects{
     color: #86D3E7;
 }
-.projects-section{
+.coding-projects-section{
     color: #86D3E7;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
 }
 .proj-btn{
     background-color: #191a1b;
@@ -156,10 +162,20 @@ body{
     color: white;
     transform: scale(1.05);
 }
+.code-btn{
+    background-color: #86D3E7;
+    margin-top: 65px;
+}
+.code-btn:hover{
+    background-color: #FDFDFF;
+}
 
 /* PROJECTS */
 
 /* SKILLS */
+#skills{
+    padding-top: 200px;
+}
 .skills-section{
     padding-bottom: 400px;
 }

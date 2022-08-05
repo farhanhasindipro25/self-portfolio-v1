@@ -1,0 +1,222 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;    
+}
+
+/* NAVBAR */
+#logo{
+    color: #86D3E7;
+    font-weight: bolder;
+}
+.portfolio-menu-color{
+    background-color: #111212;
+}
+.menu-button{
+    color: #111212;
+    background-color: #86D3E7;
+}
+.menu-button:hover{
+    background-color: #FDFDFF;
+}
+#menu-current{
+    color: #86D3E7;
+}
+/* NAVBAR */
+
+/* MEET ME */
+#meet-me{
+    padding-top: 330px;
+    padding-bottom: 250px;
+}
+.me-greet,.me-professions{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.me-professions-1{
+    animation: animate1 1.2s ease-in-out 0.1s infinite alternate;
+    animation-play-state: running;
+}
+.me-professions-2{
+    animation: animate3 1.2s ease-in-out 0.1s infinite alternate;
+    animation-play-state: running;
+}
+@keyframes animate1{
+    0% {
+        color: #86D3E7;
+    }
+    100% {
+        color: #FDFDFF;
+    }
+}
+@keyframes animate3{
+    0% {
+        color: #FDFDFF;
+    }
+    100% {
+        color: #86D3E7;
+    }
+}
+.me-name{
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.me-af{
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+}
+.me{
+    transition: all 0.2s ease-in-out;
+}
+.me:hover{
+    transform: scale(1.1) rotate(-3deg);
+}
+.me-btn{
+    transition: all 0.2s ease-in-out;
+}
+.me-btn:hover{
+    transform: scale(1.05);
+}
+.main-bg{
+    background-image: url(../images/landing-page/BG.png);
+    width: 100%;
+    min-height: 100vh;
+}
+.meet-me-highlighted{
+    color: #86D3E7;
+}
+#highlighted-color{
+    color: #86D3E7;
+}
+/* MEET ME */
+
+/* WORK EXPERIENCE */
+#exp{
+    font-size: 50px !important;
+    font-weight: bolder !important;
+}
+.section-titles{
+    animation: animate2 1.2s ease-in-out 0.1s infinite alternate;
+    animation-play-state: running;
+}
+@keyframes animate2{
+    0% {
+        transform: scale(1.1) translateY(10px);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.exp-card{
+    background-color: #111212;
+    border: 1px solid #86D3E7;
+    transition: all 0.2s ease-in-out;
+}
+.exp-card:hover{
+    background-color: #191a1b;
+    transform: scale(1.1);
+    border: 2px solid white;
+}
+#work-time{
+    font-size: 13px;
+}
+#exp{
+    padding-top: 200px;
+}
+.exp-section{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+/* WORK EXPERIENCE */
+
+/* PROJECTS */
+.projects-section{
+    padding-top: 300px;
+    color: #86D3E7;
+}
+.proj-btn{
+    background-color: #191a1b;
+    border: 2px solid #86D3E7;
+    font-weight: bolder;
+    font-size: 30px;
+    transition: all 0.2s ease-in-out;
+}
+.proj-btn:hover{
+    background-color: #111212;
+    color: white;
+    transform: scale(1.05);
+}
+/* PROJECTS */
+
+/* SKILLS */
+.skills-section{
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.skill{
+    transition: all 0.1s ease-in-out;
+}
+.skill:hover{
+    transform: scale(1.2);
+}
+.social{
+    color: #ffffff;
+    transition: all 0.1s ease-in-out;
+}
+.social:hover{
+    color: #86D3E7;
+    transform: scale(1.2);
+}
+/* SKILLS 
+
+/* TALK */
+#talk{
+    color: #86D3E7;
+}
+.talk-section{
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+.af-form-body{
+    border: 1px solid #86D3E7;
+    border-radius: 30px;
+}
+.af-form{
+    background-color: #111212;
+    border: 1px solid #86D3E7;
+}
+.af-form-btn{
+    background-color: #86D3E7;
+}
+.af-form-btn:hover{
+    background-color: #FDFDFF;
+    border: 1px solid #86D3E7;
+}
+.af-contact{
+    background-color: #111212;
+    border: 1px solid #86D3E7;
+}
+.contact-no,.contact-email,.contact-address{
+    color: #86D3E7;
+}
+.contact{
+    transition: all 0.1s ease-in-out;
+}
+.contact:hover{
+    transform: scale(1.03);
+}
+.mailer{
+    transition: all 0.1s ease-in-out;
+}
+.mailer:hover{
+    transform: scale(1.03);
+}
+/* TALK */
+
+/* FOOTER */
+.af-footer{
+    background-color: #111212;
+}
+/* FOOTER */

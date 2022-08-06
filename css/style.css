@@ -115,6 +115,10 @@ body{
 /* WORK EXPERIENCE */
 #exp{
     font-size: 50px !important;
+    transition: all 0.2s ease-in-out;
+}
+#exp:hover{
+    transform: scale(1.03);
 }
 .exp-section{
     padding-bottom: 400px;
@@ -170,10 +174,25 @@ body{
 .code-btn:hover{
     background-color: #FDFDFF;
 }
+#coding-projects,#design-projects{
+    transition: all 0.2s ease-in-out;
+}
+#coding-projects:hover{
+    transform: scale(1.03);
+}
+#design-projects:hover{
+    transform: scale(1.03);
+}
 
 /* PROJECTS */
 
 /* SKILLS */
+#all-skills{
+    transition: all 0.2s ease-in-out;
+}
+#all-skills:hover{
+    transform: scale(1.03);
+}
 #skills{
     padding-top: 200px;
 }
@@ -200,6 +219,12 @@ body{
 /* TALK */
 #talk{
     color: #86D3E7;
+}
+#contact-me{
+    transition: all 0.2s ease-in-out;
+}
+#contact-me:hover{
+    transform: scale(1.03);
 }
 .talk-section{
     padding-bottom: 200px;

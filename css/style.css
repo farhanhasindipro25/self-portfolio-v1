@@ -294,64 +294,53 @@ body{
     text-decoration: none;
     color: #FDFDFF;
 }
-
 .code-btn-light:hover,.code-btn:focus{
     background-color: #384147;
     color: #111212;
     border: none;
 }
+.design-title{
+    font-size: 15px;
+}
+.design-card{
+    /* background-color: #FDFDFF; */
+    background: url(../images/landing-page/main-bg.png);
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #FDFDFF;
+}
+
+.design-card:hover{
+    transform: scale(1.05);
+    border: 2px solid #86D3E7;
+    background: #191a1b;
+}
+.design{
+    transition: all 0.3s ease-in-out;
+}
+.design:hover{
+    transform: scale(0.9);
+}
+
 /* .design-card{
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     overflow: hidden;
 }
 .design-card:hover{
     transform: scale(1.05);
 }
-.design-item{
-    background: linear-gradient(
-        hsl(0, 0%, 0%, 0),
-        hsl(20, 0%, 0%, 0.6) 30%,
-        hsl(20, 0%, 0%, 0.7) 50%,
-        hsl(20, 0%, 0%, 0.8) 80%,
-        hsl(0, 0%, 0%, 0.9)
-    );
-    height: 415px;
-    border-radius: 25px;
-    --padding: 3rem;
-    padding: var(--padding);
-    transform: translateY(45%);
-    transition: transform 0.5s ease-in-out;
-}
-.design-item > *:not(.card-design-title){
+.design-body{
     opacity: 0;
-    transition: transform 0.5s ease-in-out;
+    background:rgba(255, 255, 255, 0.9);
+    width: 100%; 
+    border-radius: 30px;
+    transform: translateY(0); 
 }
-.card-design-title{
-    position: relative;
-    width: max-content;
-}
-.card-design-title::after{
-    content: "";
-    position: absolute;
-    left: calc(var(--padding) * -1);
-    bottom: -3px;
-    height: 3px;
-    width: calc(100% + var(--padding));
-    background-color: #86D3E7;
-    transform: scaleX(0);
-    transition: transform 0.5s ease-in-out;
-    transform-origin: left;
-}
-.design-card:hover .card-design-title::after{
-    transform: scaleX(1);
-}
-.design-card:hover .design-item{
-    transform: translateY(0);
-    transition-delay: 0.5s;
-}
-.design-card:hover .design-item > *:not(.card-design-title){
+
+.design-card:hover .design-body{
     opacity: 1;
-    transition-delay: 1s;
+    transform: translateY(-100%);
+    transition: all 0.5s ease-in-out;
+    transition-delay: 0.5s;
 } */
 
 .design-btn{
@@ -384,7 +373,7 @@ body{
     background-color: #384147;
     color: #111212;
     border: none;
-}
+} 
 /* PROJECTS */
 
 /* SKILLS */

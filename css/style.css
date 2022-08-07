@@ -323,7 +323,9 @@ body{
 .design,.design-body{
     transition: all 0.3s ease-in-out;
 }
-
+.design-body h5{
+    font-size: 15px;
+}
 .design-btn{
     font-size: 13px;
     background-color: #86D3E7;

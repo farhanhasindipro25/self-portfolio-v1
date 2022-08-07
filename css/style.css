@@ -314,39 +314,19 @@ body{
     border: 2px solid #86D3E7;
     background: #191a1b;
 }
-.design{
-    transition: all 0.3s ease-in-out;
-}
-.design:hover{
+.design-card:hover .design{
     transform: scale(0.9);
 }
-
-/* .design-card{
-    transition: transform 0.5s ease-in-out;
-    overflow: hidden;
-}
-.design-card:hover{
-    transform: scale(1.05);
-}
-.design-body{
-    opacity: 0;
-    background:rgba(255, 255, 255, 0.9);
-    width: 100%; 
-    border-radius: 30px;
-    transform: translateY(0); 
-}
-
 .design-card:hover .design-body{
-    opacity: 1;
-    transform: translateY(-100%);
-    transition: all 0.5s ease-in-out;
-    transition-delay: 0.5s;
-} */
+    transform: scale(0.9);
+}
+.design,.design-body{
+    transition: all 0.3s ease-in-out;
+}
 
 .design-btn{
     font-size: 13px;
     background-color: #86D3E7;
-    margin-top: 65px;
 }
 .design-btn:hover{
     background-color: #FDFDFF;
@@ -449,6 +429,9 @@ body{
 }
 .foot{
     font-weight: lighter;
+}
+.made-with{
+    font-size: 12px;
 }
 /* FOOTER */
 

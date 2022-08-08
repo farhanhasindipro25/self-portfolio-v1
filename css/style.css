@@ -406,8 +406,17 @@ body{
     border-radius: 30px;
 }
 .af-form{
+    color: #FDFDFF;
+    font-weight: 400;
     background-color: #111212;
-    border: 1px solid #86D3E7;
+    border: 1px solid #FDFDFF;
+    transition: all 0.4s ease-in-out;
+}
+.af-form:focus{
+    color: #111212;
+    font-weight: 400;
+    background-color: #86D3E7;
+    border: 1px solid #FDFDFF;
 }
 .af-form-btn{
     background-color: #86D3E7;
@@ -423,6 +432,7 @@ body{
 .contact-no,.contact-email,.contact-address{
     color: #86D3E7;
 }
+
 /* TALK */
 
 /* FOOTER */
